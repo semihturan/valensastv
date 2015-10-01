@@ -22,13 +22,13 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
   </head>
   <productBundleTemplate>
     <background>
-      <img src="${this.BASEURL}resources/images/tekfen-background.jpg" />
+      <img src="${this.BASEURL}resources/images/arter-background.jpg" />
     </background>
     <banner>
       <stack>
         <title>Arter - Space For Art</title>
         <subtitle>iOS Client App and Admin Portal</subtitle>
-        <description allowsZooming="true" template="templates/AlertWithDescription.xml" presentation="modalDialogPresenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+        <description allowsZooming="true">With Arter app you can discover past exhibitions or explore the current ones, keep track of events such as artist talks, performances and exhibition tours or get acquainted with Arter publications. Designed to provide you with detailed information on exhibitions and activities at Arter, this app is currently available on your iPhone and iPad.</description>
         <row>
           <buttonLockup>
             <badge src="resource://button-rate" class="whiteButton" />
