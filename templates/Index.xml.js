@@ -31,7 +31,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           <title>Client Projects</title>
         </header>
         <section>
-          <lockup>
+          <lockup template="${this.BASEURL}templates/ProductBundle.xml.js" presentation="modalDialogPresenter" accessibilityText="Accessible alert template">
             <img src="${this.BASEURL}resources/images/tekfen.lcr" width="308" height="308" />
             <title class="scrollTextOnHighlight">Tekfen IK</title>
           </lockup>
