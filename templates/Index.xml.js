@@ -13,6 +13,9 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
     <style>
       .darkBackgroundColor {
         background-color: #153795;
+      } 
+      .bluecolor {
+        color: #135795;
       }
     </style>
   </head>
@@ -30,27 +33,27 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         <section>
           <lockup>
             <img src="${this.BASEURL}resources/images/tekfen.lcr" width="308" height="308" />
-            <title>Tekfen IK</title>
+            <title class="bluecolor">Tekfen IK</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/arter.png" width="308" height="308" />
-            <title>Arter</title>
+            <title class="bluecolor">Arter</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/roche.lcr" width="308" height="308" />
-            <title>Roche Symphony</title>
+            <title class="bluecolor">Roche Symphony</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/akbank.png" width="308" height="308" />
-            <title>Akbank</title>
+            <title class="bluecolor">Akbank</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/yemeksepeti.jpeg" width="308" height="308" />
-            <title>Yemeksepeti</title>
+            <title class="bluecolor">Yemeksepeti</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/skylibrary.jpg" width="308" height="308" />
-            <title>Sky Library</title>
+            <title class="bluecolor">Sky Library</title>
           </lockup>
         </section>
       </shelf>
