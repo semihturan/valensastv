@@ -22,7 +22,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
   </head>
   <productBundleTemplate>
     <background>
-      <img src="${this.BASEURL}resources/images/arter-background.jpg" />
+      <img src="${this.BASEURL}resources/images/arter-background.jpeg" />
     </background>
     <banner>
       <stack>
