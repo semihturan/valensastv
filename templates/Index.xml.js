@@ -14,6 +14,9 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
       .darkBackgroundColor {
         background-color: #153795;
       }
+      .bluefontcolor {
+        color: #153795;
+      }
     </style>
   </head>
   <stackTemplate theme="dark" class="darkBackgroundColor">
@@ -30,27 +33,27 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         <section>
           <lockup>
             <img src="${this.BASEURL}resources/images/tekfen.lcr" width="308" height="308" />
-            <title>Tekfen IK</title>
+            <title class="bluefontcolor">Tekfen IK</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/arter.png" width="308" height="308" />
-            <title>Arter</title>
+            <title class="bluefontcolor">Arter</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/roche.lcr" width="308" height="308" />
-            <title>Roche Symphony</title>
+            <title class="bluefontcolor">Roche Symphony</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/akbank.png" width="308" height="308" />
-            <title>Akbank</title>
+            <title class="bluefontcolor">Akbank</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/yemeksepeti.jpeg" width="308" height="308" />
-            <title>Yemeksepeti</title>
+            <title class="bluefontcolor">Yemeksepeti</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/skylibrary.jpg" width="308" height="308" />
-            <title>Sky Library</title>
+            <title class="bluefontcolor">Sky Library</title>
           </lockup>
         </section>
       </shelf>
@@ -60,45 +63,36 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         </header>
         <section>
           <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_1_square.jpg" width="308" height="308" />
-            <title>Title 1</title>
+            <img src="${this.BASEURL}resources/images/hangikopru.png" width="308" height="308" />
+            <title>Hangi Köprü</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_2_square.jpg" width="308" height="308" />
-            <title>Title 2</title>
+            <img src="${this.BASEURL}resources/images/veacon.jpeg" width="308" height="308" />
+            <title>Veacon</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_3_square.jpg" width="308" height="308" />
-            <title>Title 3</title>
+            <img src="${this.BASEURL}resources/images/vdp.png" width="308" height="308" />
+            <title>VDP</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_4_square.jpg" width="308" height="308" />
-            <title>Title 4</title>
+            <img src="${this.BASEURL}resources/images/workbuk.png" width="308" height="308" />
+            <title>Workbuk</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_5_square.jpg" width="308" height="308" />
-            <title>Title 5</title>
+            <img src="${this.BASEURL}resources/images/namaz.jpg" width="308" height="308" />
+            <title>Namaz Vakitleri</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/italy/italy_6_square.jpg" width="308" height="308" />
-            <title>Title 6</title>
+            <title>Telaki</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_7_square.jpg" width="308" height="308" />
-            <title>Title 7</title>
+            <img src="${this.BASEURL}resources/images/sozluk.jpg" width="308" height="308" />
+            <title>Sozluk</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_8_square.jpg" width="308" height="308" />
-            <title>Title 8</title>
-          </lockup>
-          <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_9_square.jpg" width="308" height="308" />
-            <title>Title 9</title>
-          </lockup>
-          <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_10_square.jpg" width="308" height="308" />
-            <title>Title 10</title>
-          </lockup>
+            <img src="${this.BASEURL}resources/images/pisti.jpg" width="308" height="308" />
+            <title>Pisti</title>
         </section>
       </shelf>
     </collectionList>
