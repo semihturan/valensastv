@@ -31,11 +31,11 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           <title>Client Projects</title>
         </header>
         <section>
-          <lockup template="${this.BASEURL}templates/ProductBundle.xml.js" presentation="modalDialogPresenter" accessibilityText="Accessible alert template">
+          <lockup template="${this.BASEURL}templates/Tekfen.xml.js" presentation="modalDialogPresenter" accessibilityText="Accessible alert template">
             <img src="${this.BASEURL}resources/images/tekfen.lcr" width="308" height="308" />
             <title class="scrollTextOnHighlight">Tekfen IK</title>
           </lockup>
-          <lockup>
+          <lockup template="${this.BASEURL}templates/Arter.xml.js" presentation="modalDialogPresenter" accessibilityText="Accessible alert template">
             <img src="${this.BASEURL}resources/images/arter.png" width="308" height="308" />
             <title class="scrollTextOnHighlight">Arter</title>
           </lockup>
