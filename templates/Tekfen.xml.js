@@ -32,9 +32,6 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
       </stack>
     </banner>
     <shelf>
-      <header>
-        <title>Shelf Header</title>
-      </header>
       <section>
         <lockup>
           <img src="${this.BASEURL}resources/images/music/music_1.lcr" width="250" height="250" />
