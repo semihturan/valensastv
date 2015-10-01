@@ -14,9 +14,6 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
       .darkBackgroundColor {
         background-color: #153795;
       }
-      .bluefontcolor {
-        color: #153795;
-      }
     </style>
   </head>
   <stackTemplate theme="dark" class="darkBackgroundColor">
@@ -33,27 +30,27 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         <section>
           <lockup>
             <img src="${this.BASEURL}resources/images/tekfen.lcr" width="308" height="308" />
-            <title class="bluefontcolor">Tekfen IK</title>
+            <title>Tekfen IK</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/arter.png" width="308" height="308" />
-            <title class="bluefontcolor">Arter</title>
+            <title>Arter</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/roche.lcr" width="308" height="308" />
-            <title class="bluefontcolor">Roche Symphony</title>
+            <title>Roche Symphony</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/akbank.png" width="308" height="308" />
-            <title class="bluefontcolor">Akbank</title>
+            <title>Akbank</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/yemeksepeti.jpeg" width="308" height="308" />
-            <title class="bluefontcolor">Yemeksepeti</title>
+            <title>Yemeksepeti</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/skylibrary.jpg" width="308" height="308" />
-            <title class="bluefontcolor">Sky Library</title>
+            <title>Sky Library</title>
           </lockup>
         </section>
       </shelf>
