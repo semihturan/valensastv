@@ -13,10 +13,10 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
     <style>
       .darkBackgroundColor {
         background-color: #153795;
-      } 
-      .bluecolor {
-        color: #135795;
       }
+      .scrollTextOnHighlight {
+        tv-text-highlight-style: marquee-on-highlight;
+      }      
     </style>
   </head>
   <stackTemplate theme="dark" class="darkBackgroundColor">
@@ -33,27 +33,27 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         <section>
           <lockup>
             <img src="${this.BASEURL}resources/images/tekfen.lcr" width="308" height="308" />
-            <title class="bluecolor">Tekfen IK</title>
+            <title class="scrollTextOnHighlight">Tekfen IK</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/arter.png" width="308" height="308" />
-            <title class="bluecolor">Arter</title>
+            <title class="scrollTextOnHighlight">Arter</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/roche.lcr" width="308" height="308" />
-            <title class="bluecolor">Roche Symphony</title>
+            <title class="scrollTextOnHighlight">Roche Symphony</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/akbank.png" width="308" height="308" />
-            <title class="bluecolor">Akbank</title>
+            <title class="scrollTextOnHighlight">Akbank</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/yemeksepeti.jpeg" width="308" height="308" />
-            <title class="bluecolor">Yemeksepeti</title>
+            <title class="scrollTextOnHighlight">Yemeksepeti</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/skylibrary.jpg" width="308" height="308" />
-            <title class="bluecolor">Sky Library</title>
+            <title class="scrollTextOnHighlight">Turkish Airlines - Sky Library</title>
           </lockup>
         </section>
       </shelf>
@@ -64,35 +64,35 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         <section>
           <lockup>
             <img src="${this.BASEURL}resources/images/hangikopru.png" width="308" height="308" />
-            <title>Hangi Köprü</title>
+            <title class="scrollTextOnHighlight">Hangi Köprü</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/veacon.jpeg" width="308" height="308" />
-            <title>Veacon</title>
+            <title class="scrollTextOnHighlight">Veacon</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/vdp.png" width="308" height="308" />
-            <title>VDP</title>
+            <title class="scrollTextOnHighlight">VDP</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/workbuk.png" width="308" height="308" />
-            <title>Workbuk</title>
+            <title class="scrollTextOnHighlight">Workbuk</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/namaz.jpg" width="308" height="308" />
-            <title>Namaz Vakitleri</title>
+            <title class="scrollTextOnHighlight">Namaz Vakitleri</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_6_square.jpg" width="308" height="308" />
-            <title>Telaki</title>
+            <img src="${this.BASEURL}resources/images/veacon.jpeg" width="308" height="308" />
+            <title class="scrollTextOnHighlight">Telaki</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/sozluk.jpg" width="308" height="308" />
-            <title>Sozluk</title>
+            <title class="scrollTextOnHighlight">Sozluk</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/pisti.jpg" width="308" height="308" />
-            <title>Pisti</title>
+            <title class="scrollTextOnHighlight">Pisti</title>
           </lockup>
         </section>
       </shelf>
