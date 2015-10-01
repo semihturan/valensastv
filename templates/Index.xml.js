@@ -90,6 +90,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           <lockup>
             <img src="${this.BASEURL}resources/images/pisti.jpg" width="308" height="308" />
             <title>Pisti</title>
+          </lockup>
         </section>
       </shelf>
     </collectionList>
