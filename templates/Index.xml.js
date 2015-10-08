@@ -39,9 +39,9 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
             <img src="${this.BASEURL}resources/images/arter.png" width="308" height="308" />
             <title class="scrollTextOnHighlight">Arter</title>
           </lockup>
-          <lockup>
-            <img src="${this.BASEURL}resources/images/roche.lcr" width="308" height="308" />
-            <title class="scrollTextOnHighlight">Roche Symphony</title>
+          <lockup template="${this.BASEURL}templates/Symphony.xml.js" presentation="modalDialogPresenter" accessibilityText="Accessible alert template">
+            <img src="${this.BASEURL}resources/images/roche.png" width="308" height="308" />
+            <title class="scrollTextOnHighlight">Roche DIA Symphony</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/akbank.png" width="308" height="308" />
