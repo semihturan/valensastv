@@ -19,7 +19,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
       padding: 40 90;
     }
     .imageWithGradient {
-      tv-tint-color: linear-gradient(bottom, 0.22, transparent, 0.88, rgba(194,152,56,0.3), rgba(194,152,56,0.4));
+      tv-tint-color: linear-gradient(top, 0.44, transparent, 0.70, rgba(194,152,56,0.3), rgba(194,152,56,0.4));
     }
     </style>
   </head>
