@@ -22,7 +22,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
   </head>
   <productBundleTemplate>
     <background>
-      <img src="${this.BASEURL}resources/images/arter-background.jpg" />
+      <img src="${this.BASEURL}resources/images/arter/arter-background.jpg" />
     </background>
     <banner>
       <stack>
@@ -59,7 +59,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           <title class="showTextOnHighlight">Publications</title>
         </lockup>
         <lockup>
-          <img src="${this.BASEURL}resources/images/arter/6_1.png" width="375" height="667" />
+          <img src="${this.BASEURL}resources/images/arter/6_5.png" width="375" height="667" />
           <title class="showTextOnHighlight">Events</title>
         </lockup>
       </section>

@@ -22,7 +22,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
   </head>
   <productBundleTemplate>
     <background>
-      <img src="${this.BASEURL}resources/images/tekfen-background.jpg" />
+      <img src="${this.BASEURL}resources/images/tekfen/tekfen-background.jpg" />
     </background>
     <banner>
       <stack>
@@ -43,32 +43,20 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
       </header>
       <section>
         <lockup>
-          <img src="${this.BASEURL}resources/images/music/music_1.lcr" width="250" height="250" />
-          <title class="showTextOnHighlight">Title 1</title>
+          <img src="${this.BASEURL}resources/images/tekfen/6_1.png" width="375" height="667" />
+          <title class="showTextOnHighlight">Exhibitions</title>
         </lockup>
         <lockup>
-          <img src="${this.BASEURL}resources/images/music/music_2.lcr" width="250" height="250" />
-          <title class="showTextOnHighlight">Title 2</title>
+          <img src="${this.BASEURL}resources/images/tekfen/6_2.png" width="375" height="667" />
+          <title class="showTextOnHighlight">Explore</title>
         </lockup>
         <lockup>
-          <img src="${this.BASEURL}resources/images/music/music_3.lcr" width="250" height="250" />
-          <title class="showTextOnHighlight">Title 3</title>
+          <img src="${this.BASEURL}resources/images/tekfen/6_3.png" width="375" height="667" />
+          <title class="showTextOnHighlight">Works</title>
         </lockup>
         <lockup>
-          <img src="${this.BASEURL}resources/images/music/music_4.lcr" width="250" height="250" />
-          <title class="showTextOnHighlight">Title 4</title>
-        </lockup>
-        <lockup>
-          <img src="${this.BASEURL}resources/images/music/music_5.lcr" width="250" height="250" />
-          <title class="showTextOnHighlight">Title 5</title>
-        </lockup>
-        <lockup>
-          <img src="${this.BASEURL}resources/images/music/music_6.lcr" width="250" height="250" />
-          <title class="showTextOnHighlight">Title 6</title>
-        </lockup>
-        <lockup>
-          <img src="${this.BASEURL}resources/images/music/music_7.lcr" width="250" height="250" />
-          <title class="showTextOnHighlight">Title 7</title>
+          <img src="${this.BASEURL}resources/images/tekfen/6_4.png" width="375" height="667" />
+          <title class="showTextOnHighlight">Publications</title>
         </lockup>
       </section>
     </shelf>
