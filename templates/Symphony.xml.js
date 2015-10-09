@@ -57,6 +57,14 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           <img src="${this.BASEURL}resources/images/roche/6_3.png" width="375" height="667" />
           <title class="showTextOnHighlight">RACI</title>
         </lockup>
+        <lockup>
+          <img src="${this.BASEURL}resources/images/roche/6_2.png" width="375" height="667" />
+          <title class="showTextOnHighlight">Menu</title>
+        </lockup>
+        <lockup>
+          <img src="${this.BASEURL}resources/images/roche/6_3.png" width="375" height="667" />
+          <title class="showTextOnHighlight">RACI</title>
+        </lockup>
       </section>
     </shelf>
   </productBundleTemplate>
