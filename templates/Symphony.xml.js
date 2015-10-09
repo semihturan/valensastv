@@ -15,7 +15,7 @@ A product bundle template promotes a series of related TV shows, movies, or othe
       tv-tint-color: rgb(255, 255, 255);
     }
     .shelfLayout {
-      padding: 40 90;
+      padding: 0 50 0 50;
     }
     .justified {
       text-align: justified;
