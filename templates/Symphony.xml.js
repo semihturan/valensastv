@@ -42,7 +42,7 @@ A product bundle template promotes a series of related TV shows, movies, or othe
         </row>
       </stack>
     </banner>
-    <shelf class="shelfLayout interim">
+    <shelf centered="true" class="shelfLayout interim">
       <header>
         <title>Screenshots</title>
       </header>
