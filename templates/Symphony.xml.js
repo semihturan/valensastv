@@ -18,10 +18,13 @@ A product bundle template promotes a series of related TV shows, movies, or othe
       padding: 40 90;
     }
     .interim {
-      tv-interim-spacing: 40;
+      tv-interim-spacing: 60;
     }
     .justified {
       text-align: justified;
+    }
+    .margin {
+      margin: 50;
     }
     </style>
   </head>
@@ -43,7 +46,7 @@ A product bundle template promotes a series of related TV shows, movies, or othe
       </stack>
     </banner>
     <shelf centered="true" class="shelfLayout interim">
-      <header>
+      <header class="margin">
         <title>Screenshots</title>
       </header>
       <section>
