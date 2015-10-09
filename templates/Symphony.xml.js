@@ -24,7 +24,7 @@ A product bundle template promotes a series of related TV shows, movies, or othe
       text-align: justified;
     }
     .highlightColor {
-      tv-highlight-color: rgba(120,120,120,0.7);
+      tv-highlight-color: rgba(120,120,120,0.5);
     }
     </style>
   </head>
@@ -46,9 +46,6 @@ A product bundle template promotes a series of related TV shows, movies, or othe
       </stack>
     </banner>
     <shelf centered="true" class="shelfLayout interim">
-      <header>
-        <title centered="true">Screenshots</title>
-      </header>
       <section>
         <lockup>
           <img src="${this.BASEURL}resources/images/roche/6_1.png" width="375" height="667" />
