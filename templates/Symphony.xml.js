@@ -15,10 +15,10 @@ A product bundle template promotes a series of related TV shows, movies, or othe
       tv-tint-color: rgb(255, 255, 255);
     }
     .shelfLayout {
-      margin: 50;
+      padding: 40 90;
     }
     .interim {
-      tv-interim-spacing: float;
+      tv-interim-spacing: 40;
     }
     .justified {
       text-align: justified;
@@ -42,7 +42,7 @@ A product bundle template promotes a series of related TV shows, movies, or othe
         </row>
       </stack>
     </banner>
-    <shelf class="shelfLayout">
+    <shelf class="shelfLayout interim">
       <header>
         <title>Screenshots</title>
       </header>
