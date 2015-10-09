@@ -48,15 +48,15 @@ A product bundle template promotes a series of related TV shows, movies, or othe
     <shelf centered="true" class="shelfLayout interim">
       <section>
         <lockup>
-          <fullscreenImg srcset="${this.BASEURL}resources/images/roche/6_1.png" width="375" height="667" />
+          <fullscreenImg src="${this.BASEURL}resources/images/roche/6_1.png" width="375" height="667" />
           <title class="showTextOnHighlight">Welcome</title>
         </lockup>
         <lockup>
-          <fullscreenImg srcset="${this.BASEURL}resources/images/roche/6_2.png" width="375" height="667" />
+          <fullscreenImg src="${this.BASEURL}resources/images/roche/6_2.png" width="375" height="667" />
           <title class="showTextOnHighlight">Menu</title>
         </lockup>
         <lockup>
-          <fullscreenImg srcset="${this.BASEURL}resources/images/roche/6_3.png" width="375" height="667" />
+          <fullscreenImg src="${this.BASEURL}resources/images/roche/6_3.png" width="375" height="667" />
           <title class="showTextOnHighlight">RACI</title>
         </lockup>
       </section>
