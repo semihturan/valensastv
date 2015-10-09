@@ -21,9 +21,12 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
     .justified {
       text-align: justified;
     }
+    .tintBackgroundColor {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
     </style>
   </head>
-  <productBundleTemplate>
+  <productBundleTemplate class="tintBackgroundColor"> 
     <background>
       <img class="imageWithGradient" src="${this.BASEURL}resources/images/roche/roche-background.jpg" />
     </background>
