@@ -24,7 +24,7 @@ A product bundle template promotes a series of related TV shows, movies, or othe
   </head>
   <productBundleTemplate>
     <background>
-      <img src="${this.BASEURL}resources/images/arter/roche-background.jpg" />
+      <img src="${this.BASEURL}resources/images/roche/roche-background.jpg" />
     </background>
     <banner>
       <stack>
