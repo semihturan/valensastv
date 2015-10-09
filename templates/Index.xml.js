@@ -18,7 +18,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         tv-text-highlight-style: marquee-on-highlight;
       }
       .radius {
-        tv-img-treatment: corner-medium;
+        tv-img-treatment: corner-large;
       }   
     </style>
   </head>
