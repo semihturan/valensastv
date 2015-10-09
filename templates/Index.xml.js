@@ -16,7 +16,10 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
       }
       .scrollTextOnHighlight {
         tv-text-highlight-style: marquee-on-highlight;
-      }      
+      }
+      .radius {
+        tv-img-treatment: corner-medium;
+      }   
     </style>
   </head>
   <stackTemplate theme="dark" class="darkBackgroundColor">
@@ -32,27 +35,27 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         </header>
         <section>
           <lockup template="${this.BASEURL}templates/Tekfen.xml.js" presentation="modalDialogPresenter" accessibilityText="Accessible alert template">
-            <img src="${this.BASEURL}resources/images/tekfen.lcr" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/tekfen.lcr" width="308" height="308" />
             <title class="scrollTextOnHighlight">Tekfen IK</title>
           </lockup>
           <lockup template="${this.BASEURL}templates/Arter.xml.js" presentation="modalDialogPresenter" accessibilityText="Accessible alert template">
-            <img src="${this.BASEURL}resources/images/arter.png" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/arter.png" width="308" height="308" />
             <title class="scrollTextOnHighlight">Arter</title>
           </lockup>
           <lockup template="${this.BASEURL}templates/Symphony.xml.js" presentation="modalDialogPresenter" accessibilityText="Accessible alert template">
-            <img src="${this.BASEURL}resources/images/roche.png" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/roche.png" width="308" height="308" />
             <title class="scrollTextOnHighlight">Roche DIA Symphony</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/akbank.png" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/akbank.png" width="308" height="308" />
             <title class="scrollTextOnHighlight">Akbank</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/yemeksepeti.jpeg" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/yemeksepeti.jpeg" width="308" height="308" />
             <title class="scrollTextOnHighlight">Yemeksepeti</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/skylibrary.jpg" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/skylibrary.jpg" width="308" height="308" />
             <title class="scrollTextOnHighlight">Turkish Airlines - Sky Library</title>
           </lockup>
         </section>
@@ -63,35 +66,35 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         </header>
         <section>
           <lockup>
-            <img src="${this.BASEURL}resources/images/hangikopru.png" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/hangikopru.png" width="308" height="308" />
             <title class="scrollTextOnHighlight">Hangi Köprü</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/veacon.jpeg" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/veacon.jpeg" width="308" height="308" />
             <title class="scrollTextOnHighlight">Veacon</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/vdp.png" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/vdp.png" width="308" height="308" />
             <title class="scrollTextOnHighlight">VDP</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/workbuk.png" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/workbuk.png" width="308" height="308" />
             <title class="scrollTextOnHighlight">Workbuk</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/namaz.jpg" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/namaz.jpg" width="308" height="308" />
             <title class="scrollTextOnHighlight">Namaz Vakitleri</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/veacon.jpeg" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/veacon.jpeg" width="308" height="308" />
             <title class="scrollTextOnHighlight">Telaki</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/sozluk.jpg" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/sozluk.jpg" width="308" height="308" />
             <title class="scrollTextOnHighlight">Sozluk</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/pisti.jpg" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/pisti.jpg" width="308" height="308" />
             <title class="scrollTextOnHighlight">Pisti</title>
           </lockup>
         </section>
