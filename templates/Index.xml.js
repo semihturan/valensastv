@@ -82,7 +82,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
             <title class="scrollTextOnHighlight">Workbuk</title>
           </lockup>
           <lockup>
-            <img class="radius" src="${this.BASEURL}resources/images/namaz.jpg" width="308" height="308" />
+            <img class="radius" src="${this.BASEURL}resources/images/namaz.lcr" width="308" height="308" />
             <title class="scrollTextOnHighlight">Namaz Vakitleri</title>
           </lockup>
           <lockup>
